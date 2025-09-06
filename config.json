@@ -1,0 +1,34 @@
+{
+  "agentId": "A00000000001",
+  "memberId": "100000000001",
+  "merchantId": "MF0000000001",
+  "amount": "100000",
+  "paymentPurpose": "Кофе и булочка",
+  "redirectUrl": "https://example.ru",
+  "paymentPageUrl": "https://example.ru",
+  "paymentMethodData": [
+    {
+      "paymentServiceId": "PS0000000001",
+      "version": "v1",
+      "additionalData": {
+        "receiverAccount": "40501234567891234567",
+        "fraudScore": "0000000000000000"
+      }
+    },
+    {
+      "paymentServiceId": "PS0000000002",
+      "version": "v1",
+      "additionalData": {
+        "receiverAccount": "g.ab.cbrdc.wlt.clt.abcd0123-ab12-4a12-89ab-abcdef011111"
+      }
+    },
+    {
+      "paymentServiceId": "PS0000000003",
+      "version": "v3",
+      "additionalData": {
+        "sampleN": "123456789",
+        "sampleM": "qwerty"
+      }
+    }
+  ]
+}
