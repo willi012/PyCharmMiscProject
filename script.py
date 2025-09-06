@@ -1,3 +1,9 @@
+import json
+
+with open("config.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
+print(data["agentId"])
+print(data["paymentMethodData"][1])
 
 age = 22
 height = 1.72
@@ -25,3 +31,4 @@ while True:
 addpayre = 1231
 
 print(type(addpayre))
+
