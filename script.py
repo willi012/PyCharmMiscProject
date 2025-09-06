@@ -20,3 +20,8 @@ while True:
             print("Ошибка: допустимы только значения 0 или 1")
     except ValueError:
         print("Ошибка: нужно вводить число, а не текст")
+
+
+addpayre = 1231
+
+print(type(addpayre))
