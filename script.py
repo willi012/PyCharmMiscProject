@@ -5,6 +5,7 @@ with open("config.json", "r", encoding="utf-8") as f:
 print(data["agentId"])
 print(data["paymentMethodData"][1])
 
+
 age = 22
 height = 1.72
 name = "Vlad"
